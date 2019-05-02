@@ -1,0 +1,8 @@
+Ftmr0= frecuencia del timer0
+prescaler= Fosc/4/(f*256) 
+prescaler= 16,000,000/4/(100*256)
+prescaler= 156.25 (se puede usar el prescaler de 128 o 256 pero usaré el de 128)
+
+Ftmr0= 16,000,000/4/128/256/1 (multiplicamos extremos con extremos y medios con medios).
+Ftmr0= 16,000,000/128/(4*256)
+Ftmr0= 16,000,000/128/1024 = 122.07 = 122Hz.
